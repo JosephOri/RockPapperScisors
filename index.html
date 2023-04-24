@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="game-box">
+    <p id="cpu-scoreline"></p>
+    <p id="cpu-text"> </p>
+    <br>
+    <p id="winner"></p>
+    <br>
+    <p id="user-text"> </p>
+    <p id="user-scoreline"></p>
+    <button class="rock" value="0" onclick="challenge(this.value)">rock 🪨</button>
+    <button class="paper" value="1" onclick="challenge(this.value)">paper 📜</button>
+    <button class="scissors" value="2" onclick="challenge(this.value)">scissors ✂️</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

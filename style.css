@@ -1,0 +1,38 @@
+.game-box{
+    background-color: slategrey;
+    height:700px;
+    border-radius: 10px;
+    margin: auto;
+    width: 50%;
+    position: relative;
+}
+.game-box button {
+    position: absolute;
+    bottom: 0;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.rock {
+    left: 10px;
+}
+
+.paper {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scissors{
+    right: 10px;
+}
+p{
+    text-align: center;
+    font-size: 45px;
+    font-family: Calibri, serif ;
+}
+#user-scoreline,#user-text{
+    color: deepskyblue;
+}
+#cpu-scoreline,#cpu-text{
+    color: darkred;
+}
