@@ -1,5 +1,5 @@
 .game-box{
-    background-color: slategrey;
+    background-color: antiquewhite;
     height:700px;
     border-radius: 10px;
     margin: auto;
@@ -34,5 +34,5 @@ p{
     color: deepskyblue;
 }
 #cpu-scoreline,#cpu-text{
-    color: darkred;
+    color:red;
 }

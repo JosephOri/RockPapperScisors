@@ -5,24 +5,24 @@ var userScoreLine=document.getElementById('user-scoreline');
 var cpuScoreLine=document.getElementById('cpu-scoreline');
 
 function updateScorelines() {
-    userScoreLine.textContent = youScore;
-    cpuScoreLine.textContent = cpuScore;
+    userScoreLine.textContent = "Score: "+youScore;
+    cpuScoreLine.textContent = "Score: "+cpuScore;
 }
 
 
 
 function generateCpuChoice() {
-    const min = 0;
-    const max = 2;
-     return Math.floor(Math.random() * (max - min + 1)) + min;
+    const min = 6;
+    const max = 15687;
+     return (Math.floor(Math.random() * (max - min + 1)) + min)%3;
 }
 function textToNumber(num){
     if(num==0)
-        return "rock";
+        return "👊🏼";
     if(num==1)
-        return "paper";
+        return "✋🏼";
     else
-        return "scissors";
+        return "✌🏼";
 }
 
 function updateHtmlParagraphes(cpuText, userText) {
