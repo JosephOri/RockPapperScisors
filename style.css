@@ -4,13 +4,16 @@
     border-radius: 10px;
     margin: auto;
     width: 100%;
+    max-width: 1200px;
     position: relative;
 }
 .game-box button {
     position: absolute;
     bottom: 0;
-    font-size: 40px;
+    font-size: 20px;
+    padding: 10px;
     border-radius: 10px;
+    height: auto;
 }
 
 .rock {
@@ -35,4 +38,10 @@ p{
 }
 #cpu-scoreline,#cpu-text{
     color:red;
+}
+@media screen and (max-width: 768px) {
+button {
+    font-size: 12px;
+    padding: 5px;
+}
 }
